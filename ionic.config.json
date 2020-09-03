@@ -1,5 +1,7 @@
 {
   "name": "WATApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

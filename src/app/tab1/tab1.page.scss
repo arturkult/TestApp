@@ -1,0 +1,19 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+    &__maps {
+        flex: auto;
+        z-index: 1;
+
+        .map {
+            height: 100%;
+        }
+    }
+}
+
+.button{
+    z-index: 1000;
+}
